@@ -1,0 +1,106 @@
+.reply-text {
+    width: 100%;
+    min-height: 100px;
+    font-size: 15px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.actions-buttons-container {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.cancel-button {
+    margin-right: 6px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background-color: #799dc1;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    border-bottom: #05253D;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.reply-button {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.message-action-container {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+.message-remove {
+    text-decoration: none;
+}
+
+.message-edit {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.commented-by {
+    margin-top: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cancel-comment {
+    margin-right: 8px;
+}
+
+.comment-actions {
+    margin-bottom: 6px;
+}
+
+.message-actions-container {
+    display: inline;
+}
+
+.submessage {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    border: 1px solid #618bb5;
+    position: relative;
+    align-items: flex-end;
+    padding-bottom: 6px;
+}
+
+.submessage-replied-by {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.submessage-remove {
+    text-decoration: none;
+}
+
+.message-update-container {
+    text-align: center;
+}
+
+.message-update {
+    margin-left: 8px;
+}

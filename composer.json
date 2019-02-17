@@ -1,0 +1,16 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.1.25"
+        }
+    },
+    "description": "Guestbook test task",
+    "minimum-stability": "dev",
+    "name": "guestbook",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.25",
+        "smarty/smarty": "~3.1",
+        "firebase/php-jwt": "^5.0"
+    }
+}

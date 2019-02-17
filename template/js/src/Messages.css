@@ -1,0 +1,17 @@
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.leave-message {
+    margin-top: 24px;
+    border-bottom: 1px solid #666;
+    font-size: 16px;
+    width: 100%;
+}
+
+.logout {
+    text-align: right;
+}
